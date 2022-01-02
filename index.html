@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Order summary card</title>
+</head>
+
+<body>
+
+    <img src="images/pattern-background-mobile.svg" alt="" class="background-mobile">
+    <img src="images/pattern-background-desktop.svg" alt="" class="background-desktop">
+
+    <div class="card">
+        <div class="card-img">
+            <img src="images/illustration-hero.svg" alt="hero svg">
+        </div>
+        <div class="card-content">
+            <h2 class="card-content-title">Order Summary</h2>
+            <p class="card-content-description">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+            <div class="card-content-plan">
+                <div class="card-content-plan-icon">
+                    <img class="card-content-plan-icon-img" src="images/icon-music.svg" alt="music icon">
+                </div>
+                <div class="card-content-plan-description">
+                    <h4 class="card-content-plan-desciption-title">Annual Plan</h4>
+                    <p class="card-content-plan-desciption-inner">$59.99/year</p>
+                </div>
+                <div class="card-content-plan-change">
+                    <a href="#" class="card-content-plan-change-link">Change</a>
+                </div>
+            </div>
+            <div class="card-content-proceed">
+                <a class="card-content-proceed-link" href="#"><h4 class="card-content-proceed-link-inner">Proceed to Payment</h4></a>
+            </div>
+            <div class="card-content-cancel">
+                <a class="card-content-cancel-link" href="#"><h4 class="card-content-cancel-link-inner">Cancel Order</h4></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://www.leefuuchang.in">LeeFuuChang</a>.
+    </div>
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+
+
+
+
+    body, h1, h2, h3, h4, h5, h6, p {
+        margin: 0;
+        padding: 0;
+        font-family: 'Noto Serif', serif;
+    }
+
+    body {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        min-height: 100vh;
+        background: hsl(225, 100%, 94%);
+    }
+
+
+
+
+
+    .background-mobile {
+        position: absolute;
+        top: -25%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .background-desktop {
+        position: absolute;
+        top: -25%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
+
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 25px;
+        overflow: hidden;
+        width: 330px;
+        height: 570px;
+        background: #fff;
+    }
+
+
+
+    .card .card-img {
+        position: relative;
+        width: 100%;
+    }
+    .card .card-img img {
+        width: 100%;
+    }
+
+
+
+    .card .card-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 80%;
+        background: #fff;
+    }
+    .card .card-content .card-content-title {
+        padding: 14px;
+        font-weight: 700;
+    }
+    .card .card-content .card-content-description {
+        padding: 14px;
+        font-size: 16px;
+        font-family: serif;
+        color: #9499ac;
+    }
+
+
+
+    .card .card-content .card-content-plan {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        border-radius: 10px;
+        margin: 14px;
+        width: 100%;
+        height: 80px;
+        background: hsl(225, 100%, 98%);
+    }
+    .card .card-content .card-content-plan img {
+        padding: 14px;
+        width: 50px;
+    }
+    .card .card-content .card-content-plan-description {
+        text-align: left;
+        font-size: 8px;
+    }
+    .card .card-content .card-content-plan-description .card-content-plan-desciption-title {
+        color: #202946;
+    }
+    .card .card-content .card-content-plan-description .card-content-plan-desciption-inner {
+        color: #7b7f9c;
+    }
+    .card .card-content .card-content-plan-change {
+        position: absolute;
+        padding: 14px;
+        right: 0;
+        font-size: 8px;
+        font-family: 'Noto Serif', serif;
+        font-weight: 700;
+        color: #40359d;
+    }
+    .card .card-content .card-content-plan-change .card-content-plan-change-link {
+        text-decoration: none;
+        transition-duration: 0.2s;
+    }
+    .card .card-content .card-content-plan-change .card-content-plan-change-link:hover {
+        color: #a8a0f6;
+    }
+
+
+
+    .card .card-content .card-content-proceed {
+        cursor: pointer;
+        border-radius: 10px;
+        transition-duration: 0.2s;
+        margin: 14px;
+        padding: 0;
+        width: 100%;
+        background: #382ae1;
+    }
+    .card .card-content .card-content-proceed:hover {
+        background: #766cf1;
+    }
+    .card .card-content .card-content-proceed .card-content-proceed-link {
+        margin: 0;
+        padding: 0 auto;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .card .card-content .card-content-proceed .card-content-proceed-link .card-content-proceed-link-inner {
+        margin: 14px;
+        padding: 0;
+    }
+
+
+
+    .card .card-content .card-content-cancel{
+        cursor: pointer;
+        margin: 14px;
+        padding: 0;
+        color: #8188a4;
+    }
+    .card .card-content .card-content-cancel .card-content-cancel-link {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        color: inherit
+    }
+    .card .card-content .card-content-cancel .card-content-cancel-link-inner {
+        transition-duration: 0.2s;
+        padding: 0;
+    }
+    .card .card-content .card-content-cancel:hover{
+        color: #1c213f;
+    }
+
+
+
+
+
+    .attribution {
+        position: absolute;
+        bottom: 0;
+        padding: 20px;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+
+
+
+
+
+    @media (max-width: 63.9625rem) {
+        .background-mobile {
+            opacity: 1;
+        }
+        .background-desktop {
+            opacity: 0;
+        }
+    }
+    @media (min-width: 64rem) {
+        .background-mobile {
+            opacity: 0;
+            display: none;
+        }
+        .background-desktop {
+            opacity: 1;
+        }
+    }
+</style>
+
+</html>
