@@ -7,7 +7,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [The challenge](#The-challenge)
   - [Screenshot](#Screenshots)
   - [Links](#Links)
-- [My process](#my-process)
+- [My process](#My-process)
   - [Built with](#Built-with)
 - [Author](#Author)
 
