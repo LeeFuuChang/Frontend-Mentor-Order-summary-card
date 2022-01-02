@@ -21,8 +21,8 @@ Users should be able to:
 |![](https://i.imgur.com/oIlNXO5.jpg)|![](https://i.imgur.com/nONcszo.jpg)|
 ### Links
 - Challenge URL: [Teleport](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
-- Solution URL: [Teleport](https://your-solution-url.com)
-- Live Site URL: [Teleport](https://your-live-site-url.com)
+- Solution URL: [Teleport](https://github.com/LeeFuuChang/Frontend-Mentor-Order-summary-card)
+- Live Site URL: [Teleport](https://leefuuchang.github.io/Frontend-Mentor-Order-summary-card/)
 
 ## My process
 ### Built with
@@ -33,5 +33,6 @@ Users should be able to:
 
 ## Author
 - Website - [LeeFuuChang](https://www.leefuuchang.in)
+- GitHub - [LeeFuuChang](https://github.com/LeeFuuChang)
 - Frontend Mentor - [LeeFuuChang](https://www.frontendmentor.io/profile/LeeFuuChang)
 - Twitter - [FuuChunLee](https://twitter.com/FuuChunLee)
